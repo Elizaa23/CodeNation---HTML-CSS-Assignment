@@ -1,0 +1,64 @@
+
+/* styles.css */
+
+body {
+    font-family: 'Libre Baskerville';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+/* This is setting the font, background and margin */
+.container {
+    background-color: #000;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px; /* This will add space around the container (which will be seen when the window is full screen */
+}
+
+.image-wrapper {
+    text-align: center;
+    padding: 15px; /* The space between the image and border/text */
+}
+
+.image-wrapper img {
+    max-width: 900px;
+    height: auto;
+    border-radius: 5px; /* Adds a slight curve to the border corners*/
+    border: 5px solid white; /* 5px white border */
+}
+
+.text-wrapper1 {
+    font-size: 3rem;
+    text-align: center; /* Center aligns the text */
+}
+
+.text-wrapper2 {
+    font-size: 1rem;
+    text-align: center; /* Center aligns the text */
+}
+
+
+
+footer {
+    background-color: #000;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px; /* This will add space around the container (which will be seen when the window is full screen */
+}
+
+
